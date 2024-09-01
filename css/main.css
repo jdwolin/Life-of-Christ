@@ -1,0 +1,61 @@
+.smalltext {
+  font-size: 5px;
+  line-height: 6px;
+  color: #515d60;
+  text-align: center;
+}
+.largetext,
+.titleclass {
+  font-size: 24px;
+  color: #bf8c8a;
+}
+.eventtext {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.eventtext2 {
+  font-size: 24px;
+  color: #B0B0B0 ;
+}
+
+.eventtext3 {
+  font-size: 24px;
+  color: #808080;
+}
+
+
+.graytext,
+.titleclass {
+  font-size:24px;
+  color: #595959;
+}
+
+section.bg-gray-900 {
+      line-height: 50px;
+}
+section.bg-gray-800 {
+    margin-bottom: px;
+      line-height: 50px;
+}
+
+body{
+background-color: #000000;
+}
+
+
+.greyedout {
+  color: #dde0e0;
+}
+.active {
+  color: #c84a4a;
+  text-align: center;
+}
+.titleclass {
+  font-weight: 700;
+}
+.containme {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+

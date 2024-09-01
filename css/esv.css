@@ -1,0 +1,314 @@
+
+.highlight {
+  font-weight: bold;
+   font-family: "Sentinel A", "Sentinel B", "Gentium Plus", "Ezra", Georgia, Times, serif ;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    margin: 0;
+    text-indent: 2rem;
+}
+
+
+.fade-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 1;
+        transition: opacity 0s ease-in-out;
+    }
+
+
+html.reveal-full-page {
+    overflow: visible;
+}
+
+.reveal-viewport {
+    overflow: visible;
+}
+
+.reveal {
+  overflow: visible;  
+ }
+
+ .reveal .roll {
+      overflow: visible;   
+}
+
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+html {
+    height: 100%;
+    z-index: -1;
+    color: #6d6d6d ; 
+/*font-size: 30%; */
+  scroll-behavior: smooth;
+
+      
+}
+
+#main {
+    height: 5000px;
+ 
+}
+
+.highlight {
+
+}
+
+
+/*! CSS Used from: https://dch8lckz6x8ar.cloudfront.net/static/css/output.59af1817a77d.css */
+
+#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #000; z-index:9999;}
+
+
+
+section {
+    display: block;
+
+}
+
+b {
+          scroll-margin: 100px;
+
+}
+
+.reveal .slides {
+    text-align: justify ; 
+}
+
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+b {
+    font-weight: normal ;
+        color: #6d6d6d ;
+}
+
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+        color: #6d6d6d ;
+}
+p {
+    color: #6d6d6d ;
+}
+a {
+    color: #6d6d6d ;
+    color: var(--main-link-color);
+    text-decoration: none;
+}
+
+u {
+    text-decoration: none;
+}
+
+h3,
+h4 {
+    font-weight: 500;
+        color: #6d6d6d ;
+}
+
+h2{font:normal 400 4rem/5rem "Sentinel A","Sentinel B","Gentium Plus","Ezra",Georgia,Times,serif ;
+    text-align:center ;
+    text-transform:uppercase ;
+    color: #6d6d6d ;}
+
+h3 {
+    color: #6d6d6d ;
+    color: var(--main-subheading-text-color) ;
+    font-size: 1.5rem ;
+    margin: 3rem 0 1rem ;
+    text-transform: none ;
+        color: #6d6d6d ;
+}
+
+h4 {
+    font-size: 1.4rem;
+    margin: 3rem 0 1rem;
+        color: #6d6d6d ;
+}
+
+#bible-content {
+    margin: 12rem auto 8rem;
+    max-width: 65rem;
+}
+
+
+.container {
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.chapter-num {
+    float: left;
+    font-size: 6rem;
+    font-weight: 400;
+    height: 3.5rem;
+    padding-top: 1.1rem;
+    margin-left: -.3rem;
+}
+
+.crossref,
+.footnote,
+.verse-num {
+    font-size: 1rem;
+    line-height: 0;
+    vertical-align: super;
+}
+
+.crossref,
+.footnote {
+    font-style: italic;
+    margin: 0 .25rem;
+}
+
+.verse-num {
+    font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif ;
+    font-weight: 400;
+}
+
+.bible-cross-column {
+  
+}
+
+.bible-column h3 {
+    font: italic 200 1.7rem/2.7rem "Sentinel A", "Sentinel B", Georgia, Times, serif ; 
+    margin: 1rem 0 0;
+    clear: both;
+}
+
+.bible-column h4 {
+    font: normal 200 1.7rem/2.7rem "Sentinel A", "Sentinel B", Georgia, Times, serif ;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.bible-cross-column h3 {
+    font: italic 200 1.7rem/2.7rem "Sentinel A", "Sentinel B", Georgia, Times, serif ;
+    margin: 1rem 0 0;
+    clear: both;
+}
+
+.bible-cross-column h4 {
+    font: normal 200 1.7rem/2.7rem "Sentinel A", "Sentinel B", Georgia, Times, serif ;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h4.textual-note {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.bible-column div p {
+    font-family: "Sentinel A", "Sentinel B", "Gentium Plus", "Ezra", Georgia, Times, serif ;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    margin: 0;
+    text-indent: 2rem;
+}
+
+.bible-column div p.starts-chapter {
+    text-indent: 0;
+}
+
+.bible-cross-column div p {
+    font-family: "Sentinel A", "Sentinel B", "Gentium Plus", "Ezra", Georgia, Times, serif ;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2.7rem;
+    margin: 0;
+    text-indent: 2rem;
+}
+
+.bible-cross-column div p.starts-chapter {
+    text-indent: 0;
+}
+
+.font-size-extra-large .bible-column div p,
+.font-size-extra-large .bible-column h3 {
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+}
+
+.font-size-extra-large .chapter-num {
+    font-size: 7rem;
+    height: 4rem;
+    padding-top: 1.4rem;
+}
+
+.font-size-extra-large .crossref,
+.font-size-extra-large .footnote,
+.font-size-extra-large .verse-num {
+    font-size: 1.4rem;
+}
+
+::selection {
+    background: #000000;
+}
+
+#bible-content {
+    visibility: hidden;
+}
+
+@media all and (max-width:799px) {
+    #bible-content {
+        margin: 10rem auto 12rem;
+    }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: 'Gentium Plus';
+    src: url("https://dch8lckz6x8ar.cloudfront.net/static/font/gentium-plus.7f3793b3ee05.woff2?f10396b60b75") format('woff2'), url("https://dch8lckz6x8ar.cloudfront.net/static/font/gentium-plus.30e8b5405dd7.woff?f10396b60b75") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ezra';
+    src: url("https://dch8lckz6x8ar.cloudfront.net/static/font/ezra.8345f8bede5b.woff2?f10396b60b75") format('woff2'), url("https://dch8lckz6x8ar.cloudfront.net/static/font/ezra.11fc4ae016d3.woff?f10396b60b75") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
