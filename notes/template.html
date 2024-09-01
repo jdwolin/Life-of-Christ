@@ -25,9 +25,9 @@
     <title>UNIT ONE: "I came forth from the Father…​" (John 16:28a)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
-    <script src="https://slides.cypressbible.org/app/js/main.js"></script>
-    <link rel="stylesheet" href="https://slides.cypressbible.org/app/css/notes.css">
-    <link rel="stylesheet" href="https://slides.cypressbible.org/app/css/asciidoc.css">
+    <script src="public/js/main.js"></script>
+    <link rel="stylesheet" href="public/css/notes.css">
+    <link rel="stylesheet" href="public/css/asciidoc.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -39,7 +39,7 @@
         <script>
             // JavaScript to load the footer from an external file
         document.addEventListener("DOMContentLoaded", function() {
-            fetch("https://slides.cypressbible.org/app/footer.html")
+            fetch("footer.html")
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById("footer-placeholder").innerHTML = data;
