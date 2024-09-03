@@ -1,4 +1,306 @@
 
+/* General Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #ffffff; /* White text */
+    background-color: #333;  /* Dark background color */
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Base font size for the document */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+
+    color: #ecf0f1 !important; /* Light grey text for headings */
+    border-bottom: none !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2em;
+
+
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.875em;
+    color: #bdc3c7;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid var(--quote-icon-color); /* Use the CSS variable for quote icon color */
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #ffffff !important; /* White text in blockquotes */
+    background-color: #333; /* Slightly lighter dark background */
+    font-style: italic;
+}
+
+blockquote p, blockquote cite {
+    color: #ffffff !important; /* Ensure all text within blockquotes is white */
+}
+
+/* Lists */
+ul {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+    list-style-type: disc;
+font-size: 1.15rem;
+}
+
+ol {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+    list-style-type: decimal;
+}
+
+li {
+    margin: 5px 0;
+    color: #ffffff; /* White text for list items */
+}
+
+/* Exclude lists in .note and .tip boxes from list styling */
+.note ul, .note ol, .tip ul, .tip ol {
+    font-size: 1rem;
+
+    list-style-type: inherit; /* Maintain original bullet or number styling */
+}
+
+.note li, .tip li, .note li > *, .tip li > * {
+    font-size: 1rem;
+
+}
+
+/* Font sizes and weights for ordered list levels */
+ol li {
+
+    font-size: 2rem;   /* Default size for first level (32px) */
+}
+
+ol li > * {
+
+    font-size: 2rem;   /* Ensure text inherits the same size as the number/bullet */
+}
+
+ol li ol li {
+
+    font-size: 1.75rem; /* Slightly smaller for second level (28px) */
+}
+
+ol li ol li > * {
+
+    font-size: 1.75rem; /* Ensure text inherits the same size as the number/bullet */
+}
+
+ol li ol li ol li {
+
+    font-size: 1.5rem;  /* Smaller for third level (24px) */
+}
+
+ol li ol li ol li > * {
+
+    font-size: 1.5rem;  /* Ensure text inherits the same size as the number/bullet */
+}
+
+ol li ol li ol li ol li {
+
+    font-size: 1.25rem; /* Smallest for fourth level (20px) */
+}
+
+ol li ol li ol li ol li > * {
+
+    font-size: 1.25rem; /* Ensure text inherits the same size as the number/bullet */
+}
+
+
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #2a2a2b; /* Darker background for tables */
+    color: #ffffff !important; /* White text in tables, with higher specificity */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #ffffff !important; /* White text in table headers and cells, with higher specificity */
+}
+
+th {
+    background-color: #3b3b3b; /* Gray header to match the document's theme */
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #202021; /* Slightly darker even rows */
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tips and Callouts */
+.admonitionblock .title, .exampleblock .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+/* Horizontal Rules */
+hr {
+    border: 0;
+    border-top: 1px solid #7f8c8d;
+    margin: 20px 0;
+}
+
+/* CSS for Harmony Event Links */
+.harmony-event-link {
+    display: inline-block;
+    padding: 2px 16px;
+    margin: 6px 0px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #444444;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.harmony-event-link:hover {
+    background-color: #444444; /* Change background on hover */
+    color: #ffffff; /* Ensure text stays white on hover */
+}
+
+/* Note Boxes */
+.note, .tip, .warning, .important, .caution {
+    border-radius: 4px;
+    padding: 0px;
+    margin: 10px 0;
+    background-color: #2a2a2b; /* Slightly lighter dark background for notes and tips */
+    border-left: 5px solid;
+
+}
+
+.note {
+    border-color: var(--note-icon-color); /* Use the CSS variable for note icon color */
+    background-color: #333;
+    font-size: 1rem; /* Ensure note boxes are not affected by list styles */
+color: #3498db;
+}
+
+.tip {
+    border-color: var(--tip-icon-color); /* Use the CSS variable for tip icon color */
+    background-color: #333;
+    font-size: 1rem; /* Ensure tip boxes are not affected by list styles */
+}
+
+.warning {
+    border-color: var(--warning-icon-color); /* Use the CSS variable for warning icon color */
+    background-color: #333;
+    color: #ffffff !important; /* Ensure text in warning boxes is white */
+font-size: 1rem; /* Ensure tip boxes are not affected by list styles */
+ padding: 0px;
+}
+
+.important {
+    border-color: var(--important-icon-color); /* Use the CSS variable for important icon color */
+    background-color: #333;
+    color: #ffffff !important; /* Ensure text in important boxes is white */
+font-size: 1rem; /* Ensure tip boxes are not affected by list styles */
+}
+
+.caution {
+    border-color: #d35400;
+    background-color: #333;
+    color: #ffffff !important; /* Ensure text in caution boxes is white */
+font-size: 1rem; /* Ensure tip boxes are not affected by list styles */
+}
+
+/* Callouts */
+.admonitionblock .content, .exampleblock .content {
+    margin-left: 15px;
+}
+
+
+.admonitionblock td.icon [class^="fa icon-"] {
+    font-size: 2.5em;
+    text-shadow: none;
+    cursor: default;
+}
+
+.admonitionblock td.icon .icon-tip::before {
+    content: "\f0eb";
+    text-shadow: none;
+    color: #27ae60;
+}
+
+.admonitionblock td.icon .icon-note::before {
+    content: "\f084";
+  text-shadow: none;
+    color: #3498db;
+}
+
+.admonitionblock td.icon .icon-caution::before {
+    content: "\f08b";
+  text-shadow: none;
+    color: #e67e22;
+}
+
+
+
+.quoteblock blockquote::before {
+    content: "\201c";
+    float: left;
+    font-size: 2.75em;
+    font-weight: bold;
+    line-height: .6em;
+    margin-left: -.6em;
+    color: #999;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.quoteblock .attribution, .verseblock .attribution {
+    font-size: 1.15rem;
+    line-height: 1.45;
+    font-style: italic;
+}
+
 .sticky-footer {
     position: fixed;
     bottom: 0;
@@ -88,3 +390,5 @@
     height: 200px !important; /* Adjust the height */
     max-width: 100% !important;; /* Ensure it doesn't overflow the screen */
     
+
+
