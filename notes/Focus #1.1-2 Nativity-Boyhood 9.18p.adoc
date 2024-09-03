@@ -1,12 +1,7 @@
-++++
-<script src="https://static.esvmedia.org/crossref/crossref.min.js" type="text/javascript"></script>
-++++
-
+include::docinfo-footer.html[]
 
 [.lead]
 === UNIT ONE: "I came forth from the Father..." (John 16:28a)
-
-
 
 [.lead]
 = I. "The Word became flesh and dwelt among us. . ."
@@ -14,8 +9,8 @@
 
 [.lead]
 . The birth of the forerunner, John the Baptist
-
 +
+
 [NOTE]
 ====
 The ministry of a divinely appointed forerunner, to come in the spirit and power of Elijah, had been clearly prophesied in the OT, and the Jews eagerly awaited the appearance of this herald.
@@ -33,13 +28,9 @@ Three primary passages foretelling such a forerunner:
 ====
 How might prophecies such as these color the thinking and attitude of the Jewish people living in AD C1?
 ====
-
-
 +
 
-
 ..  The announcement of the birth of John (Lk 1:5-25)  [[event1]]
-
 +
 
 [CAUTION]
