@@ -1,13 +1,9 @@
 include::docinfo-footer.html[]
 
-[.lead]
-=== UNIT ONE: "I came forth from the Father..." (John 16:28a)
-
-[.lead]
-= I. "The Word became flesh and dwelt among us. . ."
+= UNIT ONE: "I came forth from the Father..." (John 16:28a)
+== I. "The Word became flesh and dwelt among us. . ."
 (The first advent of Jesus: His birth, infancy, and boyhood)
 
-[.lead]
 . The birth of the forerunner, John the Baptist
 +
 

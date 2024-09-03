@@ -411,11 +411,6 @@ Thus, this interrogation of John by the Sanhedrinists happened at the very end o
 
 
 
-
-
-
-
-
 ++++
 <style>
 /* CSS Variables for easy customization */
