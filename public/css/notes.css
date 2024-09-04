@@ -309,6 +309,7 @@ font-size: 1rem; /* Ensure tip boxes are not affected by list styles */
     color: white;
     text-align: center;
     padding: 10px 0;
+        z-index: 1000; /* Adjust the value as needed */ 
 }
 
 .sticky-footer ul {
