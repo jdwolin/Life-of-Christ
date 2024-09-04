@@ -1,6 +1,6 @@
 = UNIT TWO: "and am come into the world..." (John 16:28b)
 
-. The ministry of the forerunner
+. The ministry of the forerunner  [[event14]]
 +
 
 [CAUTION]
@@ -175,7 +175,7 @@ ____
 
 
 
-. The baptism of Jesus by John the Baptist
+. The baptism of Jesus by John the Baptist  [[event15]]
 +
 
 [CAUTION]
@@ -341,7 +341,7 @@ A related issue: impeccability vs. peccability?
 ====
 +
 
-. The forerunner's testimony before a Sanhedrin committee.  (Jn 1:19-28)
+. The forerunner's testimony before a Sanhedrin committee.  (Jn 1:19-28)  [[event17]]
 +
 
 [CAUTION]
