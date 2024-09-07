@@ -7,37 +7,104 @@
 .largetext,
 .titleclass {
   font-size: 24px;
-  color: #bf8c8a;
+  color: #5F9EA0;
 }
+
+.notetext {
+  font-size: 22px;
+  color: #B0C4DE;
+   font-weight: 400;
+  text-decoration: none; /* Ensure no underline by default */
+    padding-right: 30px;
+   font-style: italic;
+}
+
 .eventtext {
   font-size: 24px;
-  color: #ffffff;
+  color: #B0C4DE;
   text-decoration: none; /* Ensure no underline by default */
 }
 
-.eventtext:hover {
+
+
+.eventtexta {
+  font-size: 26px;
+  color: #B0C4DE;
+   font-weight: 500;
+  text-decoration: none; /* Ensure no underline by default */
+    padding-right: 30px;
+
+}
+
+
+
+
+.eventtexta:hover {
+   font-size: 26px;
+  color: #B0C4DE;
+   font-weight: 500;
+  text-decoration: underline; /* Add underline on hover */
+    padding-right: 30px;
+}
+
+.eventtextb {
+  font-size: 24px;
+  color: #708090;
+  padding-right: 30px;
+  text-decoration: none; /* Ensure no underline by default */
+}
+
+.eventtextb:hover {
+    font-size: 24px;
+  color: #708090;
+  padding-right: 30px;
   text-decoration: underline; /* Add underline on hover */
 }
+.eventtextc {
+  font-size: 22px;
+  color: #696969;
+
+     padding-right: 30px;
+  text-decoration: none; /* Ensure no underline by default */
+}
+
+.eventtextc:hover {
+    font-size: 22px;
+  color: #696969;
+
+     padding-right: 30px;
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
 
 .eventtext2 {
   font-size: 24px;
-  color: #B0B0B0;
+  color: #B0C4DE;
   text-decoration: none; /* Ensure no underline by default */
 }
 
-.eventtext2:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
+
 .eventtext3 {
   font-size: 24px;
   color: #808080;
 }
 
 
+.eventtext3 {
+  font-size: 24px;
+  color: #808080;
+   padding-right: 30px;
+  text-decoration: underline; /* Add underline on hover */
+}
+}
+
+
 .graytext,
 .titleclass {
   font-size:24px;
-  color: #595959;
+  color: #5F9EA0;
 }
 
 section.bg-gray-900 {
@@ -99,4 +166,426 @@ background-color: #000000;
 
 .sticky-footer ul li a:hover {
     text-decoration: underline;
+}
+
+
+    html {
+        scroll-behavior: auto;
+        /* Disables smooth scrolling */
+    }
+
+
+
+    .hanging-indent {
+        display: block;
+        /* Makes the anchor tag behave like a block element */
+        padding-left: 2rem;
+        /* Indents the entire paragraph */
+        text-indent: -2rem;
+        /* Pulls the first line back to the left */
+    }
+
+    div.sticky {
+
+        position: -webkit-sticky;
+
+        position: sticky;
+
+        top: 0;
+
+        font-size: 20px;
+
+        z-index: 2;
+
+    }
+
+
+
+    .photocontainer {
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        height: 100vh;
+
+        /* This ensures the container takes the full viewport height */
+
+    }
+
+
+
+
+
+
+
+    .container {
+
+        padding-right: 80px;
+
+        padding-left: 80px;
+
+        margin-right: auto;
+
+        margin-left: auto;
+
+    }
+
+
+
+    div.sticky1 {
+
+        position: -webkit-sticky;
+
+        position: sticky;
+
+        top: 0;
+
+        font-size: 20px;
+
+        z-index: 2;
+
+
+
+        h3 {
+
+            color: white;
+
+        }
+
+    }
+
+
+
+    div.sticky2 {
+
+        position: -webkit-sticky;
+
+        position: sticky;
+
+        top: 0;
+
+        font-size: 20px;
+
+        z-index: 2;
+
+
+
+        h3 {
+
+            color: white;
+
+        }
+
+
+
+
+
+    }
+
+
+
+    div.sticky3 {
+
+        position: -webkit-sticky;
+
+        position: sticky;
+
+        top: 0;
+
+        font-size: 20px;
+
+        z-index: 2;
+
+
+
+        h3 {
+
+            color: white;
+
+        }
+
+    }
+
+
+
+    .sticky-container1 {
+
+        position: relative;
+
+    }
+
+
+
+    .sticky-container2 {
+
+        position: relative;
+
+    }
+
+
+
+    .sticky-container3 {
+
+        position: relative;
+
+    }
+
+
+
+
+
+
+
+    .lightbox {
+
+        display: none;
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        background-color: rgb(20, 25, 28, 0.9);
+
+        overflow: auto;
+
+        z-index: 3;
+
+        scroll-margin-top: - 100px;
+
+    }
+
+
+
+    .maplight {
+
+        display: none;
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        background-color: rgba(0, 0, 0, 0.9);
+
+        /* Semi-transparent black background */
+
+        z-index: 3;
+
+        overflow: auto;
+
+        text-align: center;
+
+    }
+
+
+
+    .maplight img {
+
+        max-width: 100%;
+
+        max-height: 100%;
+
+        margin: auto;
+
+        display: block;
+
+        border-radius: 5px;
+
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+
+        /* Drop shadow */
+
+    }
+
+
+
+    .close-button1 {
+
+        color: #fff;
+
+        position: absolute;
+
+        top: 10px;
+
+        right: 20px;
+
+        font-size: 24px;
+
+        cursor: pointer;
+
+    }
+
+
+
+
+
+
+
+    ::selection {
+
+        color: #ffffff;
+
+        /* Set the desired text color when highlighted */
+
+        background-color: #007bff;
+
+        /* Set the background color when highlighted */
+
+    }
+
+
+
+    .content {
+
+        background-color: #14191C;
+
+        margin: 10% auto;
+
+        padding: 20px;
+
+
+
+        width: 95%;
+
+        max-width: 1600px;
+
+        position: relative;
+
+
+
+    }
+
+
+
+    .closeBtn {
+
+        color: #aaa;
+
+        float: right;
+
+        font-size: 28px;
+
+        font-weight: bold;
+
+        cursor: pointer;
+
+    }
+
+
+
+    .closeBtn:hover {
+
+        color: black;
+
+    }
+
+
+
+    .scrollable-content {
+
+        max-height: 80vh;
+
+        /* Adjust this value as needed */
+
+        overflow-y: auto;
+
+    }
+
+
+
+
+
+    #overlayCanvas {
+
+        position: absolute;
+
+        top: 0;
+
+        left: 0;
+
+        width: 2000px;
+
+        height: 100%;
+
+        z-index: -1;
+
+        /* Set initial z-index beneath other content */
+
+    }
+
+
+
+    .canvas-hidden {
+
+        visibility: hidden;
+
+        /* Hide the canvas when not in drawing mode */
+
+        pointer-events: none;
+
+        /* Allow pointer events to pass through the canvas */
+
+    }
+
+
+
+    .canvas-container {
+
+        position: fixed !important;
+
+        top: 0px;
+
+        left: 0px;
+
+        z-index: -1;
+
+        /* Set initial z-index beneath other content */
+
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+    /* Tooltip container */
+a[title] {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Tooltip text */ 
+a[title]:hover::after {
+  content: attr(title) !important;
+  position: absolute !important;
+  bottom: 100% !important; /* Position above the link */
+  left: 50% !important;
+  transform: translateX(-110%) !important;
+  background-color: #2a2e34 !important; /* Dark background matching the site */
+  color: #fff !important; /* White text */
+  padding: 5px 10px !important; /* Space around the text */
+  border-radius: 5px !important; /* Rounded corners */
+  font-size: 0.875rem !important; /* Font size to match the layout */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important; /* Subtle shadow for depth */
+  white-space: nowrap !important; /* Prevent text wrapping */
+  opacity: 0 !important;
+  transition: opacity 0.2s ease-in-out !important;
+}
+
+/* Show tooltip on hover */
+a[title]:hover::after {
+  opacity: 1 !important;
 }
