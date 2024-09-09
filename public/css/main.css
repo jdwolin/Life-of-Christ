@@ -23,8 +23,17 @@
   font-size: 24px;
   color: #B0C4DE;
   text-decoration: none; /* Ensure no underline by default */
+
 }
 
+.unittext {
+  font-size: 34px;
+  color: #B0C4DE;
+  text-decoration: none; /* Ensure no underline by default */
+   text-transform: uppercase;
+  font-weight: 400;
+
+}
 
 
 .eventtexta {
@@ -561,31 +570,27 @@ background-color: #000000;
 
     }
 
-    /* Tooltip container */
-a[title] {
-  position: relative;
-  cursor: pointer;
+
+/* Style the stationary tooltip box */
+#tooltip-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2a2e34;  /* Dark background */
+  color: #fff;  /* White text */
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);  /* Shadow for depth */
+  opacity: 0;  /* Initially hidden */
+  pointer-events: none;  /* Prevent interaction with the box */
+  transition: opacity 0.3s ease-in-out;  /* Smooth fade-in/out */
+  z-index: 100;  /* Keep it above other elements */
 }
 
-/* Tooltip text */ 
-a[title]:hover::after {
-  content: attr(title) !important;
-  position: absolute !important;
-  bottom: 100% !important; /* Position above the link */
-  left: 50% !important;
-  transform: translateX(-110%) !important;
-  background-color: #2a2e34 !important; /* Dark background matching the site */
-  color: #fff !important; /* White text */
-  padding: 5px 10px !important; /* Space around the text */
-  border-radius: 5px !important; /* Rounded corners */
-  font-size: 0.875rem !important; /* Font size to match the layout */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important; /* Subtle shadow for depth */
-  white-space: nowrap !important; /* Prevent text wrapping */
-  opacity: 0 !important;
-  transition: opacity 0.2s ease-in-out !important;
-}
-
-/* Show tooltip on hover */
-a[title]:hover::after {
-  opacity: 1 !important;
+/* Tooltip visible on hover */
+#cd-vertical-nav a:hover + #tooltip-box {
+  opacity: 1;  /* Show the box */
 }
